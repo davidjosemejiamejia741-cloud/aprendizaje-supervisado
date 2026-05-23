@@ -1,0 +1,32 @@
+# Modelos entrenados (archivos grandes)
+models/*.h5
+models/*.keras
+models/*.pkl
+
+# Datos procesados y reducidos (archivos grandes)
+data/processed/
+data/reduced/
+data/train/
+data/test/
+
+# Archivos Python compilados
+__pycache__/
+*.pyc
+*.pyo
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Claude Code
+.claude/
+
+# VS Code
+.vscode/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# ZIP generado
+proyecto_codigo.zip

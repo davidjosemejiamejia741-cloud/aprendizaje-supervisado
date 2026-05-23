@@ -1,0 +1,5 @@
+﻿Modelo,Candidatos,Folds CV,Total Fits,Tiempo GridSearch (s),Mejores hiperparámetros,Accuracy CV,Accuracy Validación,Accuracy Test
+Regresión Logística,3,3,9,4.23,"{'C': 0.1, 'max_iter': 1000, 'solver': 'lbfgs'}",0.9997,1.0,1.0
+Árbol de Decisión,12,3,36,16.99,"{'max_depth': 20, 'min_samples_split': 5}",0.9838,0.9955,0.9895
+Random Forest,12,3,36,21.44,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}",0.9982,1.0,0.9985
+Red Neuronal MLP,24,3,72,9.55,"{'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (64,), 'learning_rate_init': 0.001}",0.9991,1.0,1.0
